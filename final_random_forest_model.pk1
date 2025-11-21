@@ -1,0 +1,6 @@
+
+import joblib
+
+# Save the final tuned model
+joblib.dump(best_rf, 'final_random_forest_model.pkl')
+
